@@ -7,87 +7,6 @@
   - hahas5@naver.com
   - durk011@naver.com
 
-
-## index
-1. 개요
-   - 서비스명
-   - 서비스 요약
-2. 적절성
-   - 활용 공공데이터
-   - 서비스 개발 배경 및 활용 적절성
-3. 독창성
-4. 기술성
-5. 가능성
-   - 서비스의 사업성
-   - 사회적 가치 창출
-6. 기타
-
-## 개요
-
-   <서비스명>
-   - NONG4
- 
-   <서비스 요약>
-   - 예비 농업인들을 위한 서비스(튜토리얼) 정보를 제공해주는 플랫폼
-
-## 적정성
-
-## 독창성
-
-## 기술성
-
-## 가능성
-
-
-## 기타
-
-
-## 사용API
-
-<p align="center"><img src="/image/TOP_LOGO.png"></p>
-<p align="center">
-	<a href="https://friends.kookbang.kr/">
-		<img src="/image/DEMO_BUTTON.png" />
-	</a>
-	<a href="https://kjeonghoon065.gitbook.io/kookbangfriends/">
-		<img src="/image/DOCUMNET_BUTTON.png" />
-	</a>
-	<a href="https://github.com/dsvp/WEB_KookbangFriends_Woowahan/issues?page=1&q=is%3Aissue+is%3Aclosed">
-		<img src="/image/ISSUE_BUTTON.png" />
-	</a>
-</p>
-<p align="center">
-	<a href="https://github.com/osamhack2020/WEB_KookbangFriends_Woowahan/search?l=TSX&type=code"><img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osamhack2020/WEB_KookbangFriends_Woowahan"></a>
-	<a href="https://github.com/osamhack2020/WEB_KookbangFriends_Woowahan/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/osamhack2020/WEB_KookbangFriends_Woowahan?color=success"></a>
-	<a href="https://github.com/osamhack2020/WEB_KookbangFriends_Woowahan/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/osamhack2020/WEB_KookbangFriends_Woowahan"></a>
-	<a href="https://github.com/osamhack2020/WEB_KookbangFriends_Woowahan/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/osamhack2020/WEB_KookbangFriends_Woowahan"></a>
-	<a href="https://github.com/osamhack2020/WEB_KookbangFriends_Woowahan/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/osamhack2020/WEB_KookbangFriends_Woowahan"></a>
-</p>
-<br><br><br>
-<h2 align="center">프로젝트 설명 영상</h2>
-
-<table>
-	<tr>
-		<td>
-			<a href="https://www.youtube.com/watch?v=suvEYpgqv18"><img src="/image/INTRO_THUMBNAIL.png"></a>
-		</td>
-		<td>
-			<a href="https://www.youtube.com/watch?v=Oh-SFOLAom0"><img src="/image/GUIDE_THUMBNAIL.png"></a>
-		</td>
-	</tr>
-	<tr>
-		<td align="center">
-			<b>소개 영상</b>
-		</td>
-		<td align="center">
-			<b>가이드 영상</b>
-		</td>
-	</tr>
-</table>
-
-<h4 align="center">이미지 클릭 시 youtube 영상으로 이동합니다.</h4><br><br><br>
-<br>
-
 ## 팀 소개  
 <p align="center"><a href="https://raw.githubusercontent.com/osamhack2020/WEB_KookbangFriends_Woowahan/master/image/TEAM_INFO.png"><img src="/image/TEAM_INFO.png"></a></p>
 <br><br>
@@ -392,11 +311,6 @@
 <a href='https://app.gitbook.com/@kjeonghoon065/s/kookbangfriends/project-end/api-document'>오픈 API 도큐먼트 바로가기</a>
 <br>
 
-## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
-
-<p><img src="/image/prerequisites.png"></p>
-
-<br><br>
 
 ## 기술 스택 (Technique Used)
 <h3 align="center"><img src="/image/skill.jpg"></h3>
@@ -531,64 +445,6 @@
 </table>
 <br><br>
 
-## 서비스 이용법
-
-<b>1. WEB</b><br>
-https://friends.kookbang.kr/
-웹사이트 접속 후 서비스 이용<br><br>
-
-<b>2. APP</b><br>
-안드로이드/IOS 기반 스마트폰에서 웹사이트 접속 후 [홈 화면에 사이트 추가 설정]을 하면 PWA 기반 웹앱 설치가 진행됩니다.<br>
-설치 후 어플리케이션으로 이용 가능합니다.
-<br><br><br>
-
-## 개발 프로젝트 사용법 (Getting Started)
-
-<p>step1. 국방프렌즈 저장소를 클론합니다.</p>
-
-```bash
-$ git clone https://github.com/osamhack2020/WEB_KookbangFriends_Woowahan
-```
-<br>
-<p>step2. 클론한 폴더로 이동하고 패키지를 설치합니다.</p>
-
-
-```bash
-// 클라이언트 패키지 설치
-$ cd WEB_KookbangFriends_Woowahan/web/client
-$ yarn install
-$ yarn add next
-
-// 서버 패키지 설치
-$ cd ../api
-$ yarn install
-```
-<br>
-<p>step3. docker-compose 설정을 진행합니다.</p>
-
-    // web/docker-compose.yml 파일을 본인 환경에 맞게 수정합니다.
-    // 컨테이너 명, 포트 정보, DB 정보를 수정하시면 됩니다.
-    // 기본 포트 (클라이언트 : 3000, 서버 : 1337, DB : 27017) 
-    // 가이드 참조 : https://docs.docker.com/compose/gettingstarted/
-<br>
-<p>step4. docker-compose로 컨테이너를 빌드합니다.</p>
-
-```bash
-// web 폴더로 이동 후 docker-compose 빌드
-$ cd ../
-$ docker-compose build
-```
-
-<br>
-<p>step5. docker-compose로 컨테이너를 작동시킵니다.</p>
-
-```bash
-// docker-compose 실행
-$ docker-compose up
-```
-<br>
-(현재 GitHub repository에는 기본적인 DB와 리소스 파일이 같이 업로드가 되어있어 API 및 DB 폴더는 초기화 후에 진행하는 것을 권장드립니다.)
-<br><br><br>
 
 ## 팀 정보 (Team Information)
 <table width="788">
@@ -604,8 +460,8 @@ $ docker-compose up
 </thead>
 <tbody>
 <tr>
-<td width="100" align="center"><img src="/image/PROFILE1.png" width="60" height="60"></td>
-<td width="100" align="center">이무열</td>
+<td width="100" align="center"></td>
+<td width="100" align="center">이준형</td>
 <td width="150">프론트엔드 개발<br>서버 환경 구축<br>영상 작업 등</td>
 <td width="110" align="center">
 	<a href="https://kookbang.dema.mil.kr/newsWeb/20200324/1/BBSMSTR_000000100108/view.do">
@@ -615,17 +471,17 @@ $ docker-compose up
 		<img src="/image/joongang.png" width="30" height="30"/></td>
 	</a>
 <td width="100" align="center">
-	<a href="https://github.com/dsvp">
-		<img src="http://img.shields.io/badge/dsvp-655ced?style=social&logo=github"/>
+	<a href="https://github.com/hyung000620">
+		<img src="http://img.shields.io/badge/hyung000620-655ced?style=social&logo=github"/>
 	</a>
 </td>
 <td width="175" align="center">
-	<a href="mailto:muyeol95@gmail.com"><img src="https://img.shields.io/static/v1?label=&message=muyeol95@gmail.com&color=orange&style=flat-square&logo=gmail"></a>
+	<a href="mailto:dksms1@naver.com"><img src="https://img.shields.io/static/v1?label=&message=dksms1@naver.com&color=orange&style=flat-square&logo=gmail"></a>
 	</td>
 </tr>
 <tr>
-<td width="100" align="center"><img src="/image/PROFILE2.png" width="60" height="60"></td>
-<td width="100" align="center">김정훈</td>
+<td width="100" align="center"></td>
+<td width="100" align="center">김상혁</td>
 <td width="300">백엔드 개발<br>API 설계<br>문서화 작업 등</td>
 <td width="110" align="center">
 	<a href="https://youtu.be/eZX5dip7ai0?t=574">
@@ -633,12 +489,48 @@ $ docker-compose up
 	</a>
 </td>
 <td width="100" align="center">
-	<a href="https://github.com/LiiNen">
-		<img src="http://img.shields.io/badge/LiiNen-655ced?style=social&logo=github"/>
+	<a href="https://github.com/eofoeofo">
+		<img src="http://img.shields.io/badge/eofoeofo-655ced?style=social&logo=github"/>
 	</a>
 </td>
 <td width="175" align="center">
-	<a href="mailto:kjeonghoon065@gmail.com"><img src="https://img.shields.io/static/v1?label=&message=kjeonghoon065@gmail.com&color=green&style=flat-square&logo=gmail"></a>
+	<a href="mailto:durk011@naver.com"><img src="https://img.shields.io/static/v1?label=&message=durk011@naver.com&color=green&style=flat-square&logo=gmail"></a>
+	</td>
+</tr>
+<tr>
+<td width="100" align="center"></td>
+<td width="100" align="center">유병욱</td>
+<td width="300">백엔드 개발<br>API 설계<br>문서화 작업 등</td>
+<td width="110" align="center">
+	<a href="https://youtu.be/eZX5dip7ai0?t=574">
+		<img src="/image/youtube.png" width="30" height="30"/>
+	</a>
+</td>
+<td width="100" align="center">
+	<a href="https://github.com/ybo4117">
+		<img src="http://img.shields.io/badge/ybo4117-655ced?style=social&logo=github"/>
+	</a>
+</td>
+<td width="175" align="center">
+	<a href="mailto:ybo4117@naver.com"><img src="https://img.shields.io/static/v1?label=&message=ybo4117@naver.com&color=green&style=flat-square&logo=gmail"></a>
+	</td>
+</tr>
+<tr>
+<td width="100" align="center"></td>
+<td width="100" align="center">하승우</td>
+<td width="300">백엔드 개발<br>API 설계<br>문서화 작업 등</td>
+<td width="110" align="center">
+	<a href="https://youtu.be/eZX5dip7ai0?t=574">
+		<img src="/image/youtube.png" width="30" height="30"/>
+	</a>
+</td>
+<td width="100" align="center">
+	<a href="https://github.com/haseungwoo95">
+		<img src="http://img.shields.io/badge/haseungwoo95-655ced?style=social&logo=github"/>
+	</a>
+</td>
+<td width="175" align="center">
+	<a href="mailto:hahas5@naver.com"><img src="https://img.shields.io/static/v1?label=&message=hahas5@naver.com&color=green&style=flat-square&logo=gmail"></a>
 	</td>
 </tr>
 </tr>
