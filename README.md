@@ -5,6 +5,7 @@
   - dksms1@naver.com
   - ybo4117@naver.com
   - hahas5@naver.com
+  - durk011@naver.com
 
 
 ## index
